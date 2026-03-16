@@ -1,13 +1,74 @@
+import Navbar from "@/components/layout/Navbar";
+
 export default function Home() {
   return (
-    <main>
-      <section id="hero">Hero</section>
-      <section id="services">Services</section>
-      <section id="work">Work</section>
-      <section id="process">Process</section>
-      <section id="about">About</section>
-      <section id="testimonials">Testimonials</section>
-      <section id="cta">CTA</section>
-    </main>
+    <>
+      <Navbar />
+
+      <main>
+        <section
+          id="hero"
+          className="flex min-h-[calc(100vh-80px)] items-center justify-center border-b border-white/10"
+        >
+          <div className="px-6 text-center text-4xl font-semibold text-white">
+            Hero
+          </div>
+        </section>
+
+        <section
+          id="services"
+          className="flex min-h-[60vh] items-center justify-center border-b border-white/10"
+        >
+          <div className="px-6 text-center text-3xl font-semibold text-white">
+            Services
+          </div>
+        </section>
+
+        <section
+          id="work"
+          className="flex min-h-[60vh] items-center justify-center border-b border-white/10"
+        >
+          <div className="px-6 text-center text-3xl font-semibold text-white">
+            Work
+          </div>
+        </section>
+
+        <section
+          id="process"
+          className="flex min-h-[60vh] items-center justify-center border-b border-white/10"
+        >
+          <div className="px-6 text-center text-3xl font-semibold text-white">
+            Process
+          </div>
+        </section>
+
+        <section
+          id="about"
+          className="flex min-h-[60vh] items-center justify-center border-b border-white/10"
+        >
+          <div className="px-6 text-center text-3xl font-semibold text-white">
+            About
+          </div>
+        </section>
+
+        <section
+          id="testimonials"
+          className="flex min-h-[60vh] items-center justify-center border-b border-white/10"
+        >
+          <div className="px-6 text-center text-3xl font-semibold text-white">
+            Testimonials
+          </div>
+        </section>
+
+        <section
+          id="cta"
+          className="flex min-h-[60vh] items-center justify-center"
+        >
+          <div className="px-6 text-center text-3xl font-semibold text-white">
+            CTA
+          </div>
+        </section>
+      </main>
+    </>
   );
 }
