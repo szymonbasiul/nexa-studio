@@ -10,12 +10,12 @@ const navLinks = [
 
 export default function Navbar() {
   return (
-    <header className="sticky top-0 z-50 border-b border-white/10 bg-[#0B1020]/80 backdrop-blur-xl">
+    <header className="sticky top-0 z-50 border-b border-[#D9D1C7] bg-[#F6F1E8]/90 backdrop-blur-xl">
       <Container>
         <div className="flex h-20 items-center justify-between">
           <a
             href="#hero"
-            className="text-lg font-semibold tracking-tight text-white transition-opacity hover:opacity-90"
+            className="text-lg font-semibold tracking-tight text-[#181716] transition-opacity hover:opacity-80"
           >
             Nexa Studio
           </a>
@@ -25,7 +25,7 @@ export default function Navbar() {
               <a
                 key={link.href}
                 href={link.href}
-                className="text-sm font-medium text-[#98A2B3] transition-colors hover:text-white"
+                className="text-sm font-medium text-[#6B645C] transition-colors hover:text-[#181716]"
               >
                 {link.label}
               </a>
