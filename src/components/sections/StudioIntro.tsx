@@ -25,7 +25,7 @@ export default function StudioIntro() {
   return (
     <section
       id="services"
-      className="border-b border-[#D9D1C7] bg-[#FBF7F1] py-20 md:py-28"
+      className="border-b border-[#D9D1C7] bg-[#FBF7F1] py-24 md:py-32"
     >
       <Container>
         <div className="grid gap-10 lg:grid-cols-[0.92fr_1.08fr] lg:gap-16">
@@ -68,7 +68,7 @@ export default function StudioIntro() {
               </h3>
             </div>
 
-            <div className="rounded-[28px] bg-[#F1E7DA] p-7 md:p-8">
+            <div className="rounded-[28px] border border-[#D9D1C7] bg-[#FFFDF8] p-7 md:p-8 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
               <p className="text-base leading-8 text-[#181716]">
                 We treat frontend as part of the brand experience, not just as a
                 technical handoff. That means preserving intent, respecting
