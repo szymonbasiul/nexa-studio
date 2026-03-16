@@ -5,6 +5,7 @@ import WorkShowcase from '@/components/sections/WorkShowcase';
 import ProcessSection from '@/components/sections/ProcessSection';
 import AboutSection from '@/components/sections/AboutSection';
 import TestimonialsSection from '@/components/sections/TestimonialsSection';
+import CtaSection from '@/components/sections/CtaSection';
 export default function Home() {
 	return (
 		<>
@@ -16,7 +17,8 @@ export default function Home() {
 				<WorkShowcase />
 				<ProcessSection />
 				<AboutSection />
-				<TestimonialsSection />
+        <TestimonialsSection />
+        <CtaSection />
 				<section
 					id="testimonials"
 					className="flex min-h-[50vh] items-center justify-center border-b border-[#D9D1C7]"
