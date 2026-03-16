@@ -1,4 +1,5 @@
 import Navbar from "@/components/layout/Navbar";
+import Hero from "@/components/sections/Hero";
 
 export default function Home() {
   return (
@@ -6,26 +7,7 @@ export default function Home() {
       <Navbar />
 
       <main>
-        <section
-          id="hero"
-          className="flex min-h-[calc(100vh-80px)] items-center border-b border-[#D9D1C7]"
-        >
-          <div className="mx-auto w-full max-w-7xl px-6 py-20 lg:px-8">
-            <div className="max-w-4xl">
-              <p className="text-sm font-medium uppercase tracking-[0.2em] text-[#6B645C]">
-                Editorial Direction Reset
-              </p>
-              <h1 className="mt-6 text-5xl font-semibold tracking-[-0.05em] text-[#181716] sm:text-6xl lg:text-7xl">
-                Nexa Studio is shifting into a warmer, more original agency direction.
-              </h1>
-              <p className="mt-6 max-w-2xl text-lg leading-8 text-[#6B645C]">
-                We are replacing the previous SaaS-like visual system with an
-                editorial layout, stronger typography, and a more design-forward
-                website structure.
-              </p>
-            </div>
-          </div>
-        </section>
+        <Hero />
 
         <section
           id="services"
