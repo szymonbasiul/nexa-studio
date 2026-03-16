@@ -50,99 +50,128 @@ export default function Hero() {
 					</div>
 				</div>
 
-				<div className="mt-16 grid gap-6 lg:grid-cols-[1.35fr_0.65fr]">
-					<div className="rounded-[36px] border border-[#D9D1C7] bg-[#FFFDF8] p-6 shadow-[0_20px_60px_rgba(24,23,22,0.06)] transition-all duration-300 hover:-translate-y-1 hover:shadow-lg md:p-8">
-						<div className="grid gap-6">
-							<div className="grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
-								<div className="rounded-[28px] bg-[#EADBC9] p-7 md:p-8">
-									<p className="text-xs font-medium uppercase tracking-[0.18em] text-[#6B645C]">
-										Featured Direction
-									</p>
-
-									<h2 className="mt-6 max-w-md text-3xl font-semibold tracking-[-0.04em] text-[#181716] md:text-4xl">
-										Design-led websites built with precision and intent.
-									</h2>
-
-									<p className="mt-5 max-w-md text-base leading-8 text-[#5F5851]">
-										Strong composition, spacious layouts, deliberate typography,
-										and frontend execution that feels considered at every level.
-									</p>
-
-									<div className="mt-8 flex flex-wrap gap-3">
-										{capabilities.map((item) => (
-											<span
-												key={item}
-												className="rounded-full border border-[#D1B7A2] bg-[#FFF7EF] px-4 py-2 text-sm text-[#181716]"
-											>
-												{item}
-											</span>
-										))}
-									</div>
-								</div>
-
-								<div className="grid gap-6">
-									<div className="rounded-[28px] bg-[#355E57] p-7 text-[#FFFDF8] md:p-8">
-										<p className="text-xs font-medium uppercase tracking-[0.18em] text-[#EAF3F0]">
-											Studio Note
-										</p>
-
-										<p className="mt-6 text-2xl font-semibold leading-[1.3] tracking-[-0.04em] text-[#FFFDF8]">
-											Modern brand websites should feel distinct before they try
-											to feel loud.
-										</p>
-									</div>
-
-									<div className="rounded-[28px] border border-[#D9D1C7] bg-[#F1E7DA] p-7 md:p-8">
-										<p className="text-xs font-medium uppercase tracking-[0.18em] text-[#6B645C]">
-											Delivery Focus
-										</p>
-
-										<p className="mt-5 text-lg font-medium leading-8 text-[#181716]">
-											Strategy, design clarity, and responsive frontend quality
-											in one structured build flow.
-										</p>
-									</div>
-								</div>
-							</div>
-
-							<div className="grid gap-6 md:grid-cols-3">
-								{miniStats.map((item) => (
-									<div
-										key={item.value}
-										className="rounded-[24px] border border-[#D9D1C7] bg-[#FCF8F2] p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-md"
-									>
-										<p className="text-sm font-medium uppercase tracking-[0.18em] text-[#6B645C]">
-											{item.value}
-										</p>
-										<p className="mt-4 text-lg font-medium leading-7 text-[#181716]">
-											{item.label}
-										</p>
-									</div>
-								))}
+				<div className="relative mt-16">
+					<div className="hidden xl:block">
+						<div className="pointer-events-none absolute -left-20 top-16 z-10 -rotate-90">
+							<div className="rounded-full border border-[#D9D1C7] bg-[#FFFDF8]/90 px-4 py-2 backdrop-blur-sm">
+								<p className="text-[11px] font-medium uppercase tracking-[0.28em] text-[#6B645C]">
+									Editorial Frontend Direction
+								</p>
 							</div>
 						</div>
 					</div>
 
-					<div className="grid gap-6">
-						<div className="rounded-[32px] bg-[#B85F43] p-7 text-[#FFFDF8] shadow-[0_18px_50px_rgba(200,108,74,0.18)] transition-all duration-300 hover:-translate-y-1 hover:shadow-lg md:p-8">
-							<p className="text-xs font-medium uppercase tracking-[0.18em] text-[#FDF1EB]">
-								Positioning
-							</p>
-							<p className="mt-6 text-3xl font-semibold leading-[1.25] tracking-[-0.04em] text-[#FFFDF8]">
-								Built to showcase premium Figma-to-Next.js execution.
-							</p>
+					<div className="grid gap-6 lg:grid-cols-[1.35fr_0.65fr]">
+						<div className="rounded-[36px] border border-[#D9D1C7] bg-[#FFFDF8] p-6 shadow-[0_20px_60px_rgba(24,23,22,0.06)] transition-all duration-300 hover:-translate-y-1 hover:shadow-lg md:p-8">
+							<div className="grid gap-6">
+								<div className="grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
+									<div className="rounded-[28px] bg-[#EADBC9] p-7 md:p-8">
+										<p className="text-xs font-medium uppercase tracking-[0.18em] text-[#6B645C]">
+											Featured Direction
+										</p>
+
+										<h2 className="mt-6 max-w-md text-3xl font-semibold tracking-[-0.04em] text-[#181716] md:text-4xl">
+											Design-led websites built with precision and intent.
+										</h2>
+
+										<p className="mt-5 max-w-md text-base leading-8 text-[#5F5851]">
+											Strong composition, spacious layouts, deliberate typography,
+											and frontend execution that feels considered at every level.
+										</p>
+
+										<div className="mt-8 flex flex-wrap gap-3">
+											{capabilities.map((item) => (
+												<span
+													key={item}
+													className="rounded-full border border-[#D1B7A2] bg-[#FFF7EF] px-4 py-2 text-sm text-[#181716]"
+												>
+													{item}
+												</span>
+											))}
+										</div>
+									</div>
+
+									<div className="grid gap-6">
+										<div className="rounded-[28px] bg-[#355E57] p-7 text-[#FFFDF8] md:p-8">
+											<p className="text-xs font-medium uppercase tracking-[0.18em] text-[#EAF3F0]">
+												Studio Note
+											</p>
+
+											<p className="mt-6 text-2xl font-semibold leading-[1.3] tracking-[-0.04em] text-[#FFFDF8]">
+												Modern brand websites should feel distinct before they try
+												to feel loud.
+											</p>
+										</div>
+
+										<div className="rounded-[28px] border border-[#D9D1C7] bg-[#F1E7DA] p-7 md:p-8">
+											<p className="text-xs font-medium uppercase tracking-[0.18em] text-[#6B645C]">
+												Delivery Focus
+											</p>
+
+											<p className="mt-5 text-lg font-medium leading-8 text-[#181716]">
+												Strategy, design clarity, and responsive frontend quality
+												in one structured build flow.
+											</p>
+										</div>
+									</div>
+								</div>
+
+								<div className="grid gap-6 md:grid-cols-3">
+									{miniStats.map((item) => (
+										<div
+											key={item.value}
+											className="rounded-[24px] border border-[#D9D1C7] bg-[#FCF8F2] p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-md"
+										>
+											<p className="text-sm font-medium uppercase tracking-[0.18em] text-[#6B645C]">
+												{item.value}
+											</p>
+											<p className="mt-4 text-lg font-medium leading-7 text-[#181716]">
+												{item.label}
+											</p>
+										</div>
+									))}
+								</div>
+							</div>
 						</div>
 
-						<div className="rounded-[32px] border border-[#D9D1C7] bg-[#FFFDF8] p-7 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg md:p-8">
-							<p className="text-xs font-medium uppercase tracking-[0.18em] text-[#6B645C]">
-								What this project proves
-							</p>
+						<div className="grid gap-6">
+							<div className="rounded-[32px] bg-[#B85F43] p-7 text-[#FFFDF8] shadow-[0_18px_50px_rgba(200,108,74,0.18)] transition-all duration-300 hover:-translate-y-1 hover:shadow-lg md:p-8">
+								<p className="text-xs font-medium uppercase tracking-[0.18em] text-[#FDF1EB]">
+									Positioning
+								</p>
+								<p className="mt-6 text-3xl font-semibold leading-[1.25] tracking-[-0.04em] text-[#FFFDF8]">
+									Built to showcase premium Figma-to-Next.js execution.
+								</p>
+							</div>
 
-							<ul className="mt-6 space-y-4 text-base leading-7 text-[#181716]">
-								<li>Pixel-aware spacing and composition</li>
-								<li>Clean modular frontend structure</li>
-								<li>Responsive implementation with restraint</li>
-							</ul>
+							<div className="rounded-[32px] border border-[#D9D1C7] bg-[#FFFDF8] p-7 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg md:p-8">
+								<p className="text-xs font-medium uppercase tracking-[0.18em] text-[#6B645C]">
+									What this project proves
+								</p>
+
+								<ul className="mt-6 space-y-4 text-base leading-7 text-[#181716]">
+									<li>Pixel-aware spacing and composition</li>
+									<li>Clean modular frontend structure</li>
+									<li>Responsive implementation with restraint</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div className="pointer-events-none absolute -bottom-8 right-4 hidden rounded-[24px] border border-[#D9D1C7] bg-[#FFFDF8]/95 px-5 py-4 shadow-[0_14px_40px_rgba(24,23,22,0.08)] backdrop-blur-sm lg:block xl:right-10">
+						<div className="flex items-start gap-4">
+							<div className="mt-1 h-3 w-3 rounded-full bg-[#B85F43]" />
+							<div>
+								<p className="text-[11px] font-medium uppercase tracking-[0.24em] text-[#6B645C]">
+									Nexa Studio
+								</p>
+								<p className="mt-2 text-sm font-medium text-[#181716]">
+									Design-forward frontend
+								</p>
+								<p className="mt-1 text-sm text-[#5F5851]">
+									Edition 2026
+								</p>
+							</div>
 						</div>
 					</div>
 				</div>
