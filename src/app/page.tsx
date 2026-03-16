@@ -1,4 +1,5 @@
 import Navbar from "@/components/layout/Navbar";
+import Hero from "@/components/sections/Hero";
 
 export default function Home() {
   return (
@@ -6,14 +7,7 @@ export default function Home() {
       <Navbar />
 
       <main>
-        <section
-          id="hero"
-          className="flex min-h-[calc(100vh-80px)] items-center justify-center border-b border-white/10"
-        >
-          <div className="px-6 text-center text-4xl font-semibold text-white">
-            Hero
-          </div>
-        </section>
+        <Hero />
 
         <section
           id="services"
