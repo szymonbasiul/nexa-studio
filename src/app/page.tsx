@@ -6,6 +6,7 @@ import ProcessSection from '@/components/sections/ProcessSection';
 import AboutSection from '@/components/sections/AboutSection';
 import TestimonialsSection from '@/components/sections/TestimonialsSection';
 import CtaSection from '@/components/sections/CtaSection';
+import Footer from '@/components/sections/Footer';
 export default function Home() {
 	return (
 		<>
@@ -36,7 +37,8 @@ export default function Home() {
 						CTA
 					</div>
 				</section>
-			</main>
+      </main>
+      <Footer/>
 		</>
 	);
 }
