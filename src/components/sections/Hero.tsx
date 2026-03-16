@@ -15,10 +15,7 @@ const miniStats = [
 
 export default function Hero() {
   return (
-    <section
-      id="hero"
-      className="border-b border-[#D9D1C7] py-16 md:py-24"
-    >
+    <section id="hero" className="border-b border-[#D9D1C7] py-18 md:py-24">
       <Container>
         <div className="max-w-5xl">
           <p className="text-sm font-medium uppercase tracking-[0.2em] text-[#6B645C]">
@@ -30,7 +27,7 @@ export default function Hero() {
           </h1>
 
           <div className="mt-8 grid gap-8 lg:grid-cols-[1.15fr_0.85fr] lg:items-end">
-            <p className="max-w-2xl text-lg leading-8 text-[#6B645C]">
+            <p className="max-w-2xl text-lg leading-8 text-[#5F5851]">
               Nexa Studio builds premium websites for brands that care about
               clarity, presence, and frontend quality. Our approach blends
               strong visual rhythm with clean implementation in Next.js.
@@ -49,7 +46,7 @@ export default function Hero() {
           <div className="rounded-[36px] border border-[#D9D1C7] bg-[#FFFDF8] p-6 shadow-[0_20px_60px_rgba(24,23,22,0.06)] md:p-8">
             <div className="grid gap-6">
               <div className="grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
-                <div className="rounded-[28px] bg-[#EADBC9] p-8">
+                <div className="rounded-[28px] bg-[#EADBC9] p-7 md:p-8">
                   <p className="text-xs font-medium uppercase tracking-[0.18em] text-[#6B645C]">
                     Featured Direction
                   </p>
@@ -58,7 +55,7 @@ export default function Hero() {
                     Design-led websites built with precision and intent.
                   </h2>
 
-                  <p className="mt-5 max-w-md text-base leading-8 text-[#6B645C]">
+                  <p className="mt-5 max-w-md text-base leading-8 text-[#5F5851]">
                     Strong composition, spacious layouts, deliberate typography,
                     and frontend execution that feels considered at every level.
                   </p>
@@ -76,18 +73,18 @@ export default function Hero() {
                 </div>
 
                 <div className="grid gap-6">
-                  <div className="rounded-[28px] bg-[#3D6B63] p-8 text-[#FFFDF8]">
-                    <p className="text-xs font-medium uppercase tracking-[0.18em] text-[#E8EFEA]">
+                  <div className="rounded-[28px] bg-[#355E57] p-7 text-[#FFFDF8] md:p-8">
+                    <p className="text-xs font-medium uppercase tracking-[0.18em] text-[#EAF3F0]">
                       Studio Note
                     </p>
 
-                    <p className="mt-6 text-2xl font-semibold tracking-[-0.04em]">
+                    <p className="mt-6 text-2xl font-semibold leading-[1.3] tracking-[-0.04em] text-[#FFFDF8]">
                       Modern brand websites should feel distinct before they try
                       to feel loud.
                     </p>
                   </div>
 
-                  <div className="rounded-[28px] border border-[#D9D1C7] bg-[#F1E7DA] p-8">
+                  <div className="rounded-[28px] border border-[#D9D1C7] bg-[#F1E7DA] p-7 md:p-8">
                     <p className="text-xs font-medium uppercase tracking-[0.18em] text-[#6B645C]">
                       Delivery Focus
                     </p>
@@ -119,16 +116,16 @@ export default function Hero() {
           </div>
 
           <div className="grid gap-6">
-            <div className="rounded-[32px] bg-[#C86C4A] p-8 text-[#FFFDF8] shadow-[0_18px_50px_rgba(200,108,74,0.18)]">
-              <p className="text-xs font-medium uppercase tracking-[0.18em] text-[#FCEFEA]">
+            <div className="rounded-[32px] bg-[#B85F43] p-7 text-[#FFFDF8] shadow-[0_18px_50px_rgba(200,108,74,0.18)] md:p-8">
+              <p className="text-xs font-medium uppercase tracking-[0.18em] text-[#FDF1EB]">
                 Positioning
               </p>
-              <p className="mt-6 text-3xl font-semibold tracking-[-0.04em]">
+              <p className="mt-6 text-3xl font-semibold leading-[1.25] tracking-[-0.04em] text-[#FFFDF8]">
                 Built to showcase premium Figma-to-Next.js execution.
               </p>
             </div>
 
-            <div className="rounded-[32px] border border-[#D9D1C7] bg-[#FFFDF8] p-8">
+            <div className="rounded-[32px] border border-[#D9D1C7] bg-[#FFFDF8] p-7 md:p-8">
               <p className="text-xs font-medium uppercase tracking-[0.18em] text-[#6B645C]">
                 What this project proves
               </p>
