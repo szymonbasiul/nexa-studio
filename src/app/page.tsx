@@ -1,5 +1,6 @@
 import Navbar from "@/components/layout/Navbar";
 import Hero from "@/components/sections/Hero";
+import StudioIntro from "@/components/sections/StudioIntro";
 
 export default function Home() {
   return (
@@ -8,15 +9,7 @@ export default function Home() {
 
       <main>
         <Hero />
-
-        <section
-          id="services"
-          className="flex min-h-[50vh] items-center justify-center border-b border-[#D9D1C7]"
-        >
-          <div className="px-6 text-center text-3xl font-semibold text-[#181716]">
-            Services
-          </div>
-        </section>
+        <StudioIntro />
 
         <section
           id="work"
