@@ -20,23 +20,6 @@ export default function Home() {
 				<AboutSection />
         <TestimonialsSection />
         <CtaSection />
-				<section
-					id="testimonials"
-					className="flex min-h-[50vh] items-center justify-center border-b border-[#D9D1C7]"
-				>
-					<div className="px-6 text-center text-3xl font-semibold text-[#181716]">
-						Testimonials
-					</div>
-				</section>
-
-				<section
-					id="cta"
-					className="flex min-h-[50vh] items-center justify-center"
-				>
-					<div className="px-6 text-center text-3xl font-semibold text-[#181716]">
-						CTA
-					</div>
-				</section>
       </main>
       <Footer/>
 		</>
