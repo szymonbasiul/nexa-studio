@@ -1,50 +1,176 @@
-# Nexa Studio
+# Nexa Studio — Design-to-Code Frontend Project
 
-Premium digital agency website built with Next.js, TypeScript, and Tailwind CSS.
+Nexa Studio is a design-driven website built to demonstrate premium **Figma-to-Next.js frontend implementation**.
 
-## Overview
+The project focuses on translating a modern visual concept into a structured, responsive, and polished frontend architecture using **Next.js, TypeScript, and Tailwind CSS**.
 
-Nexa Studio is a portfolio project created for Fiverr to showcase pixel-perfect frontend implementation, clean component architecture, and premium UI development workflow.
+It represents a realistic scenario where a design agency website is implemented with careful attention to layout rhythm, typography, spacing, and component structure.
 
-This project represents a realistic client scenario for a modern digital agency website.
+---
+
+## Live Demo
+
+Live preview:  
+https://nexa-studio.vercel.app
+
+---
+
+## Project Goal
+
+The goal of this project is to demonstrate:
+
+- pixel-aware frontend implementation  
+- design-to-code translation from modern UI layouts  
+- responsive component architecture  
+- clean and scalable React / Next.js structure  
+- premium marketing website layout patterns  
+
+The website is structured as a **modern design studio landing page**, showcasing sections commonly used in real agency websites.
+
+---
 
 ## Tech Stack
 
-- Next.js
-- React
+### Framework
+- Next.js (App Router)
+
+### Language
 - TypeScript
+
+### Styling
 - Tailwind CSS
 
-## Goals
+### Deployment
+- Vercel
 
-- showcase Figma-to-code implementation skills
-- demonstrate clean and reusable component structure
-- present a premium responsive frontend
-- use the project as a Fiverr portfolio piece, GitHub repo, and future live demo
+---
 
-## Status
+## Features
 
-In progress.
+- Responsive layout across desktop, tablet, and mobile
+- Design-driven component structure
+- Editorial marketing website layout
+- Structured sections for modern agency websites
+- Smooth anchor navigation
+- Hover micro-interactions
+- Premium UI spacing and typography rhythm
 
-## Planned Sections
+---
 
-- Navbar
-- Hero
-- Services
-- Work Showcase
-- Process
-- About
-- Testimonials
-- CTA
-- Footer
+## Page Structure
+
+The homepage includes the following sections:
+
+- Hero  
+- Studio Introduction  
+- Work Showcase  
+- Process  
+- About  
+- Testimonials  
+- Call to Action  
+- Footer  
+
+The layout is designed to represent a **modern digital studio website** with a focus on clarity and visual hierarchy.
+
+---
+
+## Project Structure
+
+```
+src
+ ├── app
+ │   ├── layout.tsx
+ │   └── page.tsx
+ │
+ ├── components
+ │   ├── layout
+ │   │   ├── Container.tsx
+ │   │   ├── Navbar.tsx
+ │   │   └── Footer.tsx
+ │   │
+ │   ├── sections
+ │   │   ├── Hero.tsx
+ │   │   ├── StudioIntro.tsx
+ │   │   ├── WorkShowcase.tsx
+ │   │   ├── ProcessSection.tsx
+ │   │   ├── AboutSection.tsx
+ │   │   ├── TestimonialsSection.tsx
+ │   │   └── CtaSection.tsx
+ │   │
+ │   └── ui
+ │       └── Button.tsx
+ │
+ └── styles
+     └── globals.css
+```
+
+---
+
+## Development Workflow
+
+The project was built using a **feature-branch workflow**.
+
+Typical workflow:
+
+```
+feature → commit → push → pull request → merge
+```
+
+Examples of implemented branches:
+
+- `feature/navbar`
+- `feature/hero`
+- `feature/work-showcase`
+- `feature/process`
+- `feature/about`
+- `feature/testimonials`
+- `feature/cta`
+- `feature/footer`
+- `feature/ui-polish`
+
+---
+
+## Design Direction
+
+The visual style follows a **warm editorial aesthetic** with:
+
+- neutral color palette  
+- spacious layouts  
+- rounded card components  
+- subtle hover interactions  
+- restrained shadows and highlights  
+
+The goal was to create a website that feels **premium, calm, and design-aware** rather than overly flashy.
+
+---
+
+## Why This Project Exists
+
+This project was created as part of a **frontend portfolio for client work**, specifically targeting:
+
+- SaaS marketing websites
+- startup landing pages
+- design-to-code frontend implementations
+- Figma → React / Next.js projects
+
+It demonstrates the ability to turn modern design layouts into clean, maintainable frontend code.
+
+---
 
 ## Author
 
-Szymon Basiul / Pixel Breeze
+Created by Szymon Basiul **Pixel Breeze**
 
-## Local Development
+Specializing in:
 
-```bash
-npm install
-npm run dev
+- Next.js
+- React
+- modern frontend development
+- marketing websites
+- SaaS landing pages
 
+---
+
+## License
+
+This project is for portfolio purposes.
