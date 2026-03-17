@@ -11,7 +11,7 @@ It represents a realistic scenario where a design agency website is implemented 
 ## Live Demo
 
 Live preview:  
-https://nexa-studio.vercel.app
+https://nexa-studio-beta.vercel.app/
 
 ---
 
